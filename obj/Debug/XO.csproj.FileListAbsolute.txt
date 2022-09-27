@@ -1,0 +1,7 @@
+C:\Users\User\Desktop\C# Обучалка\XO\bin\Debug\XO.exe.config
+C:\Users\User\Desktop\C# Обучалка\XO\bin\Debug\XO.exe
+C:\Users\User\Desktop\C# Обучалка\XO\bin\Debug\XO.pdb
+C:\Users\User\Desktop\C# Обучалка\XO\obj\Debug\XO.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\C# Обучалка\XO\obj\Debug\XO.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\C# Обучалка\XO\obj\Debug\XO.exe
+C:\Users\User\Desktop\C# Обучалка\XO\obj\Debug\XO.pdb

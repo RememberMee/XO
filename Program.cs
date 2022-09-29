@@ -19,11 +19,12 @@ namespace XO
                 {
                     Console.WriteLine("Игра начинается: ");
                     array = FillArray();
-                    while (true)
+                    for(int i = 0; i < 5; i++)
                     {
                         int[] pos = XO(array, 1);
                         if (CheckWinner(array, 1))
                         {
+                            Draw(array, ConsoleColor.Green, pos);
                             Console.ForegroundColor = ConsoleColor.Yellow;
                             Console.WriteLine("\nВыирал X\n");
                             Console.ForegroundColor = ConsoleColor.White;
@@ -31,9 +32,16 @@ namespace XO
                         }
                         Draw(array, ConsoleColor.Green, pos);
 
+                        if (i == 4)
+                        {
+                            Console.WriteLine("Ничья");
+                            break;
+                        }
+
                         pos = XO(array, 0);
                         if (CheckWinner(array, 0))
                         {
+                            Draw(array, ConsoleColor.Red, pos);
                             Console.ForegroundColor = ConsoleColor.Yellow;
                             Console.WriteLine("\nВыирал О\n");
                             Console.ForegroundColor = ConsoleColor.White;
@@ -191,10 +199,6 @@ namespace XO
                     }
                     Console.WriteLine();
                 }
-            }
-            else
-            {
-
             }
         }
 
